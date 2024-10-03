@@ -28,7 +28,7 @@ export const runCode = async(data:{
     problemId:string;
 })=>{
     try {
-        const res = await fetch("http://localhost:8000/app/runCode",{
+        const res = await fetch("https://botserver.rajmohandas.com.np/app/runCode",{
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
